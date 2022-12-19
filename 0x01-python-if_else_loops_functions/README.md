@@ -205,7 +205,3 @@ Python
 ```
 Task involved writing a Python function that has the same bytecode as the task defined.
 ```
-### Author
-- [Alex Yu](https://github.com/AlexYu01)
-### Acknowledgments
-- [Holberton](https://www.holbertonschool.com/)
