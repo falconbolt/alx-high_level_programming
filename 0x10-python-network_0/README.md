@@ -96,7 +96,3 @@ Not a valid JSON
 You got me!
 0x10-python-network_0:$  
 ```
-### Author
-- [Alex Yu](https://github.com/AlexYu01)
-### Acknowledgments
-- [Holberton](https://www.holbertonschool.com/)
