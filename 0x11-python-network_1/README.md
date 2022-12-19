@@ -78,7 +78,3 @@ Error code: 404
 Error code: 500
 0x11-python-network_1:$ 
 ```
-### Author
-- [Alex Yu](https://github.com/AlexYu01)
-### Acknowledgments
-- [Holberton](https://www.holbertonschool.com/)
