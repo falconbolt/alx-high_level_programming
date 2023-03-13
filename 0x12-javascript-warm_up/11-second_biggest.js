@@ -1,20 +1,9 @@
 #!/usr/bin/node
-if (process.argv[3]) {
-  let biggest = parseInt(process.argv[2]);
-  let runnerUp = NaN;
-  let temp;
-  for (let i = 3; i < process.argv.length; i++) {
-    temp = parseInt(process.argv[i]);
-    if (temp > biggest) {
-      runnerUp = biggest;
-      biggest = temp;
-    } else if (isNaN(runnerUp)) {
-      runnerUp = temp;
-    } else if (temp > runnerUp) {
-      runnerUp = temp;
-    }
-  }
-  console.log(runnerUp);
-} else {
+if (process.argv.length <= 3) {
   console.log(0);
+} else {
+  const args = process.argv.map(Number)
+    .slice(2, process.argv.length)
+    .sort((a, b) => a - b);
+  console.log(args[args.length - 2]);
 }
